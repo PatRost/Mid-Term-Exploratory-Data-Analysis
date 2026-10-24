@@ -31,9 +31,14 @@ My main takeaway is that final review is part of the technical work. The remaini
 
 ---
 
-## Member 3 — [Enter Full Name]
+## Member 3 — Saimi Manasiya
 
-### Personal Reflection
+
+Through this midterm project, I gained a better understanding of how Exploratory Data Analysis (EDA) helps us understand a dataset before applying machine learning algorithms. I learned that examining data through graphs, charts, and statistical information makes it easier to identify patterns, distributions, and possible data quality issues. In our diabetes dataset, we explored important features such as age, BMI, smoking history, and diabetes status. Reviewing these features helped me understand how data visualization can provide useful information about the dataset and help us make better decisions during the preprocessing stage.
+
+One of the most important things I learned was how class imbalance can affect a machine learning project. In our training dataset, approximately 91.5% of the records belonged to people without diabetes, while only 8.5% belonged to people with diabetes. This showed me that the dataset did not have an equal distribution between the two classes. I also learned that the BMI values were concentrated around 27.32, with 8,961 records having this value. Another important observation was that many records had missing smoking-history information represented as “No Info.” I understood that these records should be treated as unknown rather than assuming those people had never smoked. These findings helped me recognize why it is important to examine the data carefully before building a model.
+
+Finally, I learned how preprocessing techniques can improve the preparation of data for machine learning. By comparing the class distributions before and after applying SMOTENC, I understood how this technique helps balance the training data by increasing the number of minority-class examples. After balancing, both diabetes classes contained 32,025 records. I also learned the importance of applying this technique only to the training data so that the testing data remains separate for evaluating the model. Overall, this project improved my understanding of data analysis, visualization, class imbalance, and preprocessing techniques. It also helped me appreciate the importance of teamwork and clear communication when working on a machine learning project. I believe the knowledge I gained from this assignment will help me in future projects involving real-world datasets and predictive modeling.
 
 
 ---
