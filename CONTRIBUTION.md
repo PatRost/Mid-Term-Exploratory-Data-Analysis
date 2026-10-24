@@ -27,9 +27,9 @@ Another part of my contribution is documenting points that need attention before
 
 ---
 
-## Member 3 — [Enter Full Name]
+## Member 3 — Saimi Manasiya
 
-### Individual Contribution
+My contribution to the group project focused on reviewing and interpreting the exploratory data analysis and visualizations in the diabetes dataset. I examined the graphs representing diabetes class distribution, age, BMI, and smoking history to understand the patterns present in the training data. I reviewed the class imbalance, where the majority of records belonged to patients without diabetes, and noted the concentration of BMI values around 27.32. I also examined the smoking history categories and understood why records marked as “No Info” should be treated as unknown rather than as patients who have never smoked. Additionally, I reviewed the before-and-after class distribution graphs to understand the effect of SMOTENC on balancing the training data. This work helped me understand the dataset’s characteristics, identify potential data quality concerns, and explain why EDA is an important step before training machine learning models.
 
 
 ---
