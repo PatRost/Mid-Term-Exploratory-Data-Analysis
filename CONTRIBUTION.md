@@ -18,9 +18,11 @@ Finally, I verified the final preprocessing results and exported the original tr
 
 ---
 
-## Member 2 — [Enter Full Name]
+## Member 2 — Kenneth Kouokam
 
-### Individual Contribution
+My contribution focuses on interpreting the final data-quality checks and reviewing how the submitted files support the project requirements. The review confirms that the original split contains 35,000 training records and 15,000 testing records. After preprocessing and class balancing, the training dataset contains 64,050 records, with 32,025 examples in each diabetes class and no missing values. My section explains these results and the importance of keeping the test set separate from the preprocessing workflow. It also discusses the consistency of the engineered high_bmi feature with the BMI values in the exported dataset.
+
+Another part of my contribution is documenting points that need attention before submission and future model training. The processed training data still contains 565 duplicate rows, so the group should explain how repeated records are handled rather than assuming that balanced data is automatically free of quality issues. The review also identifies exact record matches between the training and testing files that deserve investigation. For the documentation, I recommend updating the notebook PDF to include the final verification and export steps and shortening the proposal to the required one-page limit.
 
 
 ---
