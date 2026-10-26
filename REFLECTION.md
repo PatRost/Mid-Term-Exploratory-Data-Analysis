@@ -43,9 +43,34 @@ Finally, I learned how preprocessing techniques can improve the preparation of d
 
 ---
 
-## Member 4 — [Enter Full Name]
+## Member 4 — Anavictoria Cavazos
 
-### Personal Reflection
+  After working with my group on this midterm, with the chosen dataset to work with being diabetes prediction, I would say that I have 
+learned a little more now about how to actually apply what has been learned in the past assignments. This midterm just allowed me to a
+ctually do each part without a task guide. I feel that with the dataset that was chosen, it was easier to follow and analyze the steps 
+that had to be taken, such as splitting the data and using categorical encoding. 
+
+  One aspect of this assignment that I would point out would be how putting into practice the learning that I have been acquiring in the 
+lectures has helped me have a better understanding of certain terms or coding features and how they are used. For instance, although I 
+knew that when there are categorical features they have to be turned into numerical forms, when I actually used it in the diabetes 
+dataset, I was able to see basically a real-life example (aside from the previous Titanic dataset) of seeing how the gender and the 
+smoking history were categories that had to be converted. 
+
+   In addition, I also finally understood the concept of understanding the way synthetic records and real records work together. Based on 
+my understanding, the use or reason for synthetic records is to bridge the gap between the minority group and the majority. See what I 
+understand now that happens is that when the data has too much of one class, like, for instance, a positive result with very few that 
+have an actual condition referring to medical data, then the part that actually has the condition, since it is small in comparison, is 
+the minority class that gets overlooked. That is where SMOTENC and other similar algorithms come into play with this process by adding 
+those synthetic records previously mentioned. So then this still left me with a small doubt of why and if it would not affect the data 
+negatively, but after looking deeper into how synthetic records work, I realized it does the exact opposite. By allowing a balance in the 
+data of the records, it helps have a better prediction of people who would have that condition by being able to detect patterns when that 
+condition is presented. I was also able to analyze how some were duplicates in the data, but it made me also see and remember how 
+sometimes it can be a real-life case where two different patients share similar health aspects. Going forward, I see how this would be a 
+limitation in data, and I will keep an eye open on how that issue can be fixed and better controlled.  
+
+   Overall, I appreciate that as each assignment is accomplished, my understanding of machine learning and using data or actually working
+ with it is growing as well. I hope to use every part of this learning in future work fields as well as with other future assignments. 
+
 
 
 ---
