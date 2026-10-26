@@ -34,10 +34,14 @@ My contribution to the group project focused on reviewing and interpreting the e
 
 ---
 
-## Member 4 — [Enter Full Name]
+## Member 4 — Anavictoria Cavazos
 
-### Individual Contribution
-
+My personal contribution to this assignment was analyzing why the workflow uses categorical encoding, StandardScaler, and SMOTENC. My 
+brief explanation of why the dataset's workflow had to use categorical encoding is that, for instance, people who were ‘smokers’ had to 
+be converted to numeric form. The raw text strings for smoking history and gender cannot be read since they are in numeric form, so 
+categorical encoding is required. Now, for SMOTENC, it was used for this workflow by helping balance out the data in our dataset. The way 
+it was applied or used was to handle both the continuous columns shown in BMI and age, and then the nominal columns by helping show 
+realistic synthetic examples of minority patients, and in the process not messing up the categorical variables. 
 
 ---
 
