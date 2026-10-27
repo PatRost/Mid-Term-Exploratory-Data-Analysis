@@ -75,7 +75,14 @@ limitation in data, and I will keep an eye open on how that issue can be fixed a
 
 ---
 
-## Member 5 — [Enter Full Name]
+## Member 5 — Hashim Sayed Hoosini
 
-### Personal Reflection
+This project was a great transition from a typical classroom exercise to a real-world machine learning application, and it showed me that real-world data is much messier than I expected. When I first started, my biggest worry was how to safely cut our massive 100,000-row dataset down to 50,000 rows without losing our minority group. Since only about 8.5% of the patients in the raw data had diabetes, a basic random split could have easily discarded a huge portion of those important medical records. By learning how to use stratified sampling to randomly select exactly half of the patients from each category, I successfully halved the dataset while keeping the exact same 8.5% prevalence ratio intact.
+
+Another major concern I had during the setup phase was why we were splitting our data into a 70% training and 30% testing set. In my previous classes, I was always taught to use an 80/20 split, so I was initially confused by this choice. However, after reading the project instructions and looking closely at our data, I realized that keeping a full 30% (exactly 15,000 records) as an untouched test set gives us a much more stable and reliable group to evaluate our final predictions. Following this instruction taught me that there is no single "right" split ratio in machine learning; it depends entirely on the size of your data and your evaluation goals.
+
+I also learned a lot about preserving data integrity during our Exploratory Data Analysis (EDA) and class balancing stages. When I notice that over a quarter of our dataset shared an identical, imputed BMI of 27.32 (likely from median imputation) and that 'No Info' was common in smoking history, we chose to label those missing values as 'Unknown' rather than throwing the rows away. This kept our sample size intact and preserved as much honest information as possible. Furthermore, using SMOTENC to balance our training set to a 50/50 ratio (32,025 records per class) taught me how synthetic records help algorithms detect diabetic patterns that would otherwise get completely ignored.
+
+Finally, this midterm gave me hands-on experience handling the unexpected errors that crop up in a Python data pipeline. Because synthetic generators work column-by-column without understanding clinical context, they created 65 impossible rows where patient BMIs did not match their 'high_bmi' obesity labels. Writing a custom script in Google Colab to find and correct these inconsistencies was challenging but highly rewarding. It helped me gain confidence in my coding skills and showed me that a data engineer's job is to constantly double-check their datasets to ensure they are clean, logical, and ready for future predictive modeling.
+
 
