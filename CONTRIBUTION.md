@@ -45,7 +45,10 @@ realistic synthetic examples of minority patients, and in the process not messin
 
 ---
 
-## Member 5 — [Enter Full Name]
+## Member 5 — Hashim Sayed Hoosini
 
-### Individual Contribution
+For my contribution to this project, I reviewed the entire Jupyter notebook and thoroughly discussed the stratified division of our dataset with my team. I raised critical questions regarding our choice of a 70% training and 30% testing split, ensuring we kept exactly 15,000 untouched records isolated from data leakage. Beyond the processing pipeline, I actively researched and proposed the specific classification models and evaluation metrics we will use for our final modeling phase. I also worked on revising the finalized notebook code cells and structuring our dedicated journal sections.
+
+
+To ensure our submission was completely flawless, I did the final verification checks. I verified that all three required files—our processed training dataset, original training data, and untouched testing CSVs—were named perfectly according to our instructor's requirements. Additionally, I run the each cell code individually to confirm the notebook is out of error, ensured our academic reflection sections were correctly titled, and confirmed that our GitHub repository link was fully operational and ready to share on Canvas. Working on these tasks taught me how essential communication and thorough quality checks are when collaborating on data engineering pipelines.
 
